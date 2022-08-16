@@ -1,0 +1,17 @@
+@import '~tailwindcss/base';
+@import '~tailwindcss/components';
+@import '~tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Requiem';
+  src: url('../images/fonts/Requiem.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Mordred';
+  src: url('../images/fonts/Mordred.woff2') format('woff2');
+}
+
+@import './components/general.scss';
+@import './components/minting-dapp.scss';
+@import './components/front.scss';

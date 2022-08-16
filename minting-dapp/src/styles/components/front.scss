@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+
+canvas {
+  @apply top-0 left-0 w-screen h-screen;
+}
+
+@layer components {
+  // Loading page
+  .loading-screen {
+    @apply text-center items-center;
+  }
+
+  // Header page
+  .header {
+    @apply z-10 absolute grid-rows-2 gap-4 justify-between items-center 
+    top-0 left-0 h-24 w-full border-0 text-primary font-bold bg-transparent 
+    flex flex-row hover:shadow hover:shadow-orange-100 overflow-x-auto;
+  }
+
+  .shufflez-title {
+    @apply row-span-2 px-8 text-4xl;
+    @apply sm:px-16;
+    // @apply shadow-sm;
+  }
+
+  .header-content {
+    @apply flex flex-row gap-6 px-8 items-center;
+    @apply sm:px-16;
+  }
+
+  // Mint page container
+  .mint-title {
+    @apply text-9xl text-center font-black;
+    @apply my-8;
+    letter-spacing:0.2em;
+  }
+
+  .backdrop {
+    @apply z-10 fixed w-full h-full top-0 right-0 bg-transparent;
+  }
+
+  .side-drawer {
+    background-image: url('../../images/old-paper.png');
+    background-repeat: no-repeat;
+    @apply bg-center bg-cover; //bg-local
+    @apply fixed z-20 h-full top-0 right-0 overflow-auto;
+    @apply md:w-1/2;
+    @apply translate-x-full;
+    @apply ease-out md:duration-300;
+  }
+
+  .side-drawer.open {
+    @apply translate-x-0;
+  }
+
+  .mint-container {
+    @apply px-8 py-3 md:px-16 md:py-4;
+  }
+
+  // Info section
+  .general-info-text {
+    @apply mt-6 text-secondary;
+    font-family: 'Mordred', Times, serif;
+    @apply text-xl font-normal tracking-tight;
+  }
+    h2 {
+      @apply text-3xl text-red-700 tracking-wide;
+    }
+    strong {
+      @apply font-black;
+    }
+
+  .general-info-text p {
+    @apply my-8;
+  }
+
+  .socials-info {
+    @apply text-slate-200;
+    @apply bg-amber-100 bg-opacity-10 rounded-md p-3;
+    @apply border border-amber-200;
+    @apply shadow;
+  }
+
+  // Question section
+  .accordion {
+    @apply mb-52;
+  }
+  
+  .accordion-expand-button {
+    @apply relative flex items-center w-full;
+    // @apply py-4 px-5;
+    @apply text-secondary text-left border-0 rounded-md;
+    @apply transition focus:outline-none;
+  }
+
+  .accordion-icon {
+    @apply justify-center px-5;
+  }
+
+  .accordion-content {
+    @apply rounded-2xl p-4 mb-6; 
+  }
+
+}
+
+
