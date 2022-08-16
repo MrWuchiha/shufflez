@@ -1,3 +1,4 @@
+import { FaExternalLinkAlt } from "react-icons/fa";
 import Questions from "./Questions";
 
 const Info = () => {
@@ -12,7 +13,7 @@ const Info = () => {
           <u><strong>Reveal type:</strong></u> Delayed ~ 1 week. <br/>
           <u><strong>Royalty fees:</strong></u> None <br/>
           <u><strong>Other information:</strong></u> ERC721 token on Ethereum <br/>
-          <u><strong>Smart contract:</strong></u> https://etherscan.io <br/>
+          <u><strong>Smart contract:</strong></u> <a href='https://etherscan.io/address/0x6be20890784d0ca1c442c13a2c86992c0838be5a#code' target='_blank'>Follow link <div className="icons text-sm"><FaExternalLinkAlt /></div></a> <br/>
           <strong>Everything is hand-drawn!</strong> <br/>
         </p>
 
