@@ -7,7 +7,7 @@ export default function Header(props:any) {
     return (
         <>
             <div className='header'>
-                <div className='shufflez-title'>SHUFFLEZ NFT</div>
+                <div className='shufflez-title'>SHUFFLEZ</div>
                 <div className='header-content'>
                     <a href='https://discord.gg/9xbSmaecKw' target='_blank'><FaDiscord className='hover:text-blue-600 active:text-blue-800 focus:outline-none focus:ring focus:ring-blue-300' /></a>
                     <a href='https://www.tiktok.com/@shufflez.nft' target='_blank'><FaTiktok className='hover:text-gray-600 active:text-gray-800 focus:outline-none focus:ring focus:ring-gray-400' /></a>
