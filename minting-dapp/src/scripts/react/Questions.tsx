@@ -19,7 +19,7 @@ export default function Questions() {
         Each card usually has an underlying meaning, traditionally depicted by the symbolisms on the card's illustration. 
         Tarot cards have a nearly 600 year history. 
         The most known deck is the Rider tarot deck comprised of 78 cards, with 22 <strong>trumps</strong> and 56 <strong>suit cards</strong>. 
-        Many variations exist today. See <a href='https://www.britannica.com/topic/tarot' target='_blank'>this detailed explanation <div className="icons text-sm"><FaExternalLinkAlt /></div></a>.
+        Many variations exist today. See <a href='https://www.britannica.com/topic/tarot' target='_blank'> detailed explanation <div className="icons text-sm"><FaExternalLinkAlt /></div></a>.
       </AccordionLayout>
 
       <AccordionLayout 

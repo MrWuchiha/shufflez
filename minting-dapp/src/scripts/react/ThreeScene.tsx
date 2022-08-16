@@ -34,7 +34,7 @@ const RandomGenSphere = (props: JSX.IntrinsicElements['group']) => {
           //@ts-ignore: Unreachable code error
           <group ref={group} {...props}>
             <Sphere key={i} color="cyan" position={[1 + Math.random() * 30, 70 - Math.random() * 140, 70 - Math.random() * 140]} />
-            <Sphere key={i} color="orange" position={[-1 - Math.random() * 30, 70 - Math.random() * 140, 70 - Math.random() * 140]} />
+            <Sphere key={i} color="#FFB6C1" position={[-1 - Math.random() * 30, 70 - Math.random() * 140, 70 - Math.random() * 140]} />
           </group>
         );
       })}
