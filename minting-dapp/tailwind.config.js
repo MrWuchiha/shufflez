@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       colors: {
         // General
-        primary: "#eecf90",
+        primary: colors.amber[300],
         secondary: colors.slate[900],
         links: {
           txt: colors.purple[500],

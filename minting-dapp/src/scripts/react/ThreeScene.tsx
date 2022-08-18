@@ -74,7 +74,7 @@ const Caption = ({ children, size, position, letterSpacing }: {children:string, 
       font="/build/images/fonts/Requiem.ttf"
       fontSize={width * size}
       letterSpacing={letterSpacing}
-      color="#eecf90"
+      color="#fcd34d"
       material-toneMapped={false}
       anchorX="center"
       anchorY="middle">
@@ -94,7 +94,7 @@ function Bg() {
     <mesh scale={100}>
       <boxGeometry args={[1, 1, 1]} />
       <LayerMaterial side={THREE.BackSide}>
-        <Depth colorB="red" colorA="deepskyblue" alpha={1} mode="normal" near={160} far={200} origin={[100, 100, -100]} />
+        <Depth colorA="red" colorB="royalblue" alpha={1} mode="normal" near={160} far={200} origin={[100, 100, -100]} />
       </LayerMaterial>
     </mesh>
   )
@@ -115,18 +115,13 @@ const ThreeScene = React.memo((props:any) => {
           {/* <color args={["#b8cfff"]} attach="background" /> */}
           <Bg />
           <hemisphereLight intensity={1} color="red" />
-          <spotLight intensity={20} color="#c1cff5" position={[0, 4, 0]} />
+          <spotLight intensity={20} color="#ebabcd" position={[0, 4, 0]} />
 
           <RandomGenSphere />
           <RandomGenCard />
           <Caption size={1/20} position={new THREE.Vector3(0, -35, -10)} letterSpacing={0.5}>{ 'SHFLZ' }</Caption>
           <Caption size={1/80} position={new THREE.Vector3(0, -35.8, -10)} letterSpacing={0.1}>{ '580 tarot-themed, hand-drawn NFTs' }</Caption>
-          <Model position={[0, -35.1, 0]} onClick={props.togglePage} />
-          <mesh position={[0, -34.8, 0]}>
-            <sphereBufferGeometry args={[1, 1, 1 ]} attach='geometry' />
-            <meshPhysicalMaterial color={'white'} visible={false} opacity={0} />
-            <Sparkles count={10} scale={1.6} size={10} speed={1} color={'#f2edff'} />
-          </mesh>
+          <Model position={[0, -35.1, 0]} onClick={props.togglePage} scale={innerWidth/innerHeight*0.5 + innerHeight/innerWidth*0.2} />
 
           <Rig/>
 

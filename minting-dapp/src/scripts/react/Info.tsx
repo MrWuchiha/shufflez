@@ -37,17 +37,12 @@ const Info = () => {
         </p>
 
         <p>
-          <strong className="italic">"Then why should you own a Shufflez NFT?"</strong> <br/>
+          <strong className="italic text-center content-center">"Then why should you own a Shufflez NFT?"</strong> <br/>
           We want to cater a fun community where artists, developers, and diviners alike 
           can share their passion for gems, astrology, and tarot cards, in the form of NFTs!
         </p>
 
         <p>
-          <strong className="italic text-primary">We do not want to become a plutocratic-like DAO.</strong>
-        </p>
-
-        <p>
-          Instead, we bring to you a space filled with genuine passion 🖤!
           You will be able to sell and buy your own neat tarot-themed NFT to an already existing audience, and
           by owning a Shufflez NFT, you will contribute in keeping the project running, and accelerating its development. 
           We are eternally grateful for your support!

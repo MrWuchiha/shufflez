@@ -13,21 +13,25 @@ canvas {
 
   // Header page
   .header {
-    @apply z-10 absolute grid-rows-2 gap-4 justify-between items-center 
-    top-0 left-0 h-24 w-full border-0 text-primary font-bold bg-transparent 
-    flex flex-row hover:shadow hover:shadow-orange-100 overflow-x-auto;
+    @apply z-10 absolute gap-4 justify-between items-center;
+    @apply flex flex-row grid-rows-2;
+    @apply top-0 left-0 h-24 md:h-36 w-full border-0 text-primary bg-transparent font-bold;
+    @apply hover:shadow hover:shadow-orange-100 overflow-x-auto;
   }
 
   .shufflez-title {
-    @apply row-span-2 px-4 md:px-8 md:text-4xl;
+    @apply row-span-2 px-4 md:px-8 text-xl md:text-4xl;
     @apply sm:px-16;
-    // @apply shadow-sm;
   }
 
   .header-content {
     @apply flex flex-row items-center;
-    @apply gap-3 md:gap-6 px-4 md:px-8;
-    @apply sm:px-16;
+    @apply gap-3 px-4;
+    @apply md:gap-8 sm:px-16 md:text-3xl;;
+  }
+
+  .header-content a {
+    @apply md:text-3xl;
   }
 
   // Mint page container
