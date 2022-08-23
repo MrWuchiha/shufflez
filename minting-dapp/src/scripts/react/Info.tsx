@@ -56,8 +56,8 @@ const Info = () => {
         <p>
           Collect a full-on 78 card deck and we will send you a <strong className="text-highlight">printed copy</strong> in <strong className="text-highlight">real life</strong>! 😱 <br/>
 
-          In addition, join the community to buy and sell exclusive, hand-drawn, tarot-themed NFTs! The community will be already 
-          established.
+          In addition, join the community to buy and sell exclusive, hand-drawn, tarot-themed NFTs! The niche will be already 
+          established for you to share your enthusiasm.
         </p>
 
         <p>  
