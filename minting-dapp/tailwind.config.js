@@ -73,6 +73,9 @@ module.exports = {
       fontFamily: {
         sans: ['Requiem']
       },
+      screens: {
+        '3xl': '2560px',
+      },
     },
   },
   variants: {},

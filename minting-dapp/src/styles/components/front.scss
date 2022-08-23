@@ -27,7 +27,7 @@ canvas {
   .header-content {
     @apply flex flex-row items-center overflow-hidden;
     @apply gap-3 px-5;
-    @apply md:gap-8 sm:px-16 md:text-3xl;;
+    @apply md:gap-8 sm:px-16 md:text-3xl;
   }
 
   .header-content a {
@@ -36,7 +36,7 @@ canvas {
 
   // Mint page container
   .mint-title {
-    @apply text-7xl md:text-8xl text-center font-black;
+    @apply text-7xl lg:text-8xl text-center font-black;
     @apply my-8;
     letter-spacing:0.2em;
   }
