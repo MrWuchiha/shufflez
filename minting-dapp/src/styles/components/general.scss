@@ -3,7 +3,7 @@ html, body {
 
   font-family: 'Requiem', Times, serif, 'Franklin Gothic Medium';
   @apply tracking-wide;
-  @apply text-base md:text-xl;
+  @apply text-lg md:text-xl xl:text-2xl;
 }
 
 .icons {
