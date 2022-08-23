@@ -24,7 +24,7 @@ export default function Questions() {
       </AccordionLayout>
 
       <AccordionLayout 
-        title="🌹 The story of tarot decks. 🌹"
+        title="The story of tarot decks. 🌹"
         index={2}
         activeIndex={activeIndex}
         setActiveIndex={setActiveIndex}
@@ -49,7 +49,7 @@ export default function Questions() {
       </AccordionLayout>
 
       <AccordionLayout 
-        title="🥀 The story of the Rider deck. 🥀"
+        title="The story of the Rider deck. 🥀"
         index={3}
         activeIndex={activeIndex}
         setActiveIndex={setActiveIndex}
