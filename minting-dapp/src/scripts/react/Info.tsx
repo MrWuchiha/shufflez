@@ -35,8 +35,7 @@ const Info = () => {
           We want to cater a <strong className="text-highlight">fun</strong> community where artists, developers, and diviners alike 
           can share their passion for <strong className="text-highlight">gems</strong>, <strong className="text-highlight">astrology</strong>, 
           and <strong className="text-highlight">tarot cards</strong>, in the form of <strong className="text-highlight">NFTs</strong>! <br/>
-          We'd like to build a common space for divination and web3 enthusiasts to <strong className="text-highlight">discuss</strong> 
-          and <strong className="text-highlight">share ideas</strong> for tarot decks.
+          We'd like to build a common space for divination and web3 enthusiasts to <strong className="text-highlight">discuss</strong> and <strong className="text-highlight">share ideas</strong> for tarot decks.
         </p>
 
         <p>
