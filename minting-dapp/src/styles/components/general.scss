@@ -3,6 +3,7 @@ html, body {
 
   font-family: 'Requiem', Times, serif, 'Franklin Gothic Medium';
   @apply tracking-wide;
+  @apply text-sm md:text-lg;
 }
 
 .icons {
@@ -23,12 +24,13 @@ strong {
   @apply font-semibold;
 }
 
+.text-highlight {
+  @apply font-bold text-slate-200;
+}
+
+
 main {
   @apply flex flex-col;
-
-  span.emoji {
-    @apply text-2xl;
-  }
 
   .error {
     @apply flex flex-col;

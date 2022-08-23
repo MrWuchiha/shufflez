@@ -13,7 +13,7 @@ canvas {
 
   // Header page
   .header {
-    @apply z-10 absolute gap-4 justify-between items-center;
+    @apply z-10 absolute gap-0 justify-between items-center;
     @apply flex flex-row grid-rows-2;
     @apply top-0 left-0 h-24 md:h-36 w-full border-0 text-primary bg-transparent font-bold;
     @apply hover:shadow hover:shadow-orange-100 overflow-x-auto;
@@ -25,8 +25,8 @@ canvas {
   }
 
   .header-content {
-    @apply flex flex-row items-center;
-    @apply gap-3 px-4;
+    @apply flex flex-row items-center overflow-hidden;
+    @apply gap-3 px-5;
     @apply md:gap-8 sm:px-16 md:text-3xl;;
   }
 
@@ -67,10 +67,10 @@ canvas {
   .general-info-text {
     @apply mt-6 text-secondary;
     font-family: 'Mordred', Times, serif;
-    @apply text-xl font-normal tracking-tight;
+    @apply font-normal tracking-tight;
   }
     h2 {
-      @apply text-3xl text-red-700 tracking-wide;
+      @apply text-xl md:text-3xl text-red-700 tracking-wide;
     }
     strong {
       @apply font-black;
