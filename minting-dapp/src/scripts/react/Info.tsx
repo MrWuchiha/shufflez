@@ -7,7 +7,7 @@ const Info = () => {
       <div className="general-info-text">
         <p>
           <h2>Key Information</h2>
-          <u><strong>Release date:</strong></u> August 29th 10am EST <br/>
+          <u><strong>Release date*:</strong></u> September 19th 10am EST <br/>
           <u><strong>Total number of tokens:</strong></u> 580 <br/>
           <u><strong>Price per token:</strong></u> 0.06 ETH <br/>
           <u><strong>Reveal type:</strong></u> Delayed ~ 1 week. <br/>
@@ -15,6 +15,7 @@ const Info = () => {
           <u><strong>Other information:</strong></u> ERC721 token on Ethereum <br/>
           <u><strong>Smart contract:</strong></u> <a href='https://etherscan.io/address/0x6be20890784d0ca1c442c13a2c86992c0838be5a#code' target='_blank'>Follow link <div className="icons text-sm"><FaExternalLinkAlt /></div></a> <br/>
           <strong>Everything is hand-drawn!</strong> <br/>
+          *Release data has been delayed to give us time to grow.
         </p>
 
         <p>

@@ -58,8 +58,8 @@ export default function Questions() {
         our NFT deck pales in comparison 😅), but we will give an introduction here. <br/><br/>
 
         First and foremost, each card depicts <strong className="text-highlight">symbolisms</strong> that is most always understood (apart from the 6 of Swords). On top of this, 
-        whether the creator intentionally wanted this, each card can be associated with a <strong className="text-highlight">zodiac sign</strong>, a 
-        <strong className="text-highlight">ruling planet</strong>, and an <strong className="text-highlight"> alchemical element</strong>.
+        whether the creator intentionally wanted this, each card can be associated with a <strong className="text-highlight">zodiac sign</strong>, 
+        a <strong className="text-highlight">ruling planet</strong>, and an <strong className="text-highlight"> alchemical element</strong>.
         This is typical of more modern decks. <br/><br/>
 
         The genius I think, comes from the <strong className="text-highlight">numerology</strong>. The intricate numerology relates cards together. For example, The Tower (numbered 16) 
