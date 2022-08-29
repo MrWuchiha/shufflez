@@ -7,7 +7,7 @@ const Info = () => {
       <div className="general-info-text">
         <p>
           <h2>Key Information</h2>
-          <u><strong>Release date*:</strong></u> September 19th 10am EST <br/>
+          <u><strong>Release date*:</strong></u> September 12th 10am EST <br/>
           <u><strong>Total number of tokens:</strong></u> 580 <br/>
           <u><strong>Price per token:</strong></u> 0.06 ETH <br/>
           <u><strong>Reveal type:</strong></u> Delayed ~ 1 week. <br/>
